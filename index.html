@@ -1,39 +1,95 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>website</title>
 </head>
 
 <body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Wilmot Gbewonyo</h1>
+    <!-- Replaced outter "div" tag with "header" tag. It is considered best"-->
+    <!-- practice to use "header" tag for introductory contents to standout-->
+     <header class="header">
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>I am a software developer</p>
-      <h1>Where I'm From</h1>
-      <p>Ghana, West Africa</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Reading, Working-out, Yard work</p>
-      <h1>What's your dream job?</h1>
-      <p>A medical doctor</p>
-      <h1>Where do you live?</h1>
-      <p>Porter Ranch, CA</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>Career advancement </p>
-    </section>
-
-    <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/usernamehere">Github</a></li>
-        </ul>
+    <div class="hero"></div>
+    <!-- The area below is the main body of the website. I enclosed it "-->
+    <!-- within a "main" tag to improve the structural flow of the website -->
+    <main>
+    <!-- Replaced outter "div" tag with "section" tag. "section" tag best"-->
+        <section class="content">
+            <div class="search-engine-optimization">
+                <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </div>
+            <div id="online-reputation-management" class="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management" class="float-right" />
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </div>
+            <div id="social-media-marketing" class="social-media-marketing">
+                <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </div>
+        </section>
+    <!-- Replaced outter "div" tag with "section" tag. "section" tag is"-->
+    <!-- best for grouping generic standalone documents in a webpage -->
+        <section class="benefits">
+            <div class="benefit-lead">
+                <h3>Lead Generation</h3>
+                <img src="./assets/images/lead-generation.png" alt="Lead Generation image missing"/>
+                <p>
+                    Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                </p>
+            </div>
+            <div class="benefit-brand">
+                <h3>Brand Awareness</h3>
+                <img src="./assets/images/brand-awareness.png" alt="Brand Awareness image missing" />
+                <p>
+                    Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                </p>
+            </div>
+            <div class="benefit-cost">
+                <h3>Cost Management</h3>
+                <img src="./assets/images/cost-management.png" alt="Cost Management image missing" />
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                </p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Replaced "div" tag with "section" tag for code consistency, and"--> 
+    <!-- adherence to best practice in webpage development"--> 
+    <footer class="footer">
+        <section 
+            <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
+                &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+        </section>
     </footer>
 </body>
 
