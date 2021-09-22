@@ -46,8 +46,8 @@ a {
     text-decoration: none;
 }
 /*  To improved readability for the elderly and visually impaired
-    Changed font-size from 16px to 18px
-    Added "bolder" font-weight 
+    1. Changed font-size from 16px to 18px
+    2. Added "bolder" font-weight to make texts more visible
 */ 
 p {
     font-size: 18px;
